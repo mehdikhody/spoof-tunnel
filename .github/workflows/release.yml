@@ -23,12 +23,12 @@ jobs:
             goarch: arm64
             suffix: ''
           # Windows
-          - goos: windows
-            goarch: amd64
-            suffix: '.exe'
-          - goos: windows
-            goarch: arm64
-            suffix: '.exe'
+#          - goos: windows
+ #           goarch: amd64
+  #          suffix: '.exe'
+   #       - goos: windows
+    #        goarch: arm64
+     #       suffix: '.exe'
           # FreeBSD
           - goos: freebsd
             goarch: amd64
