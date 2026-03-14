@@ -7,8 +7,7 @@
     "type": "icmp",
     "icmp_mode": "echo",
     "protocol_number": 0,
-    "_type_options": ["udp", "icmp", "raw"],
-    "_protocol_number_comment": "Only used when type is 'raw'. Examples: 41=IPv6, 47=GRE, 50=ESP"
+    "_type_options": ["udp", "icmp"],
   },
 
   "listen": {
