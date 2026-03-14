@@ -7,9 +7,8 @@
     "type": "udp",
     "icmp_mode": "echo",
     "protocol_number": 0,
-    "_type_options": ["udp", "icmp", "raw"],
+    "_type_options": ["udp", "icmp",],
     "_icmp_mode_options": ["echo", "reply"],
-    "_protocol_number_comment": "Custom IP protocol number (1-255), only used when type is 'raw'. Examples: 41=IPv6, 47=GRE, 50=ESP, 41=SIT"
   },
 
   "listen": {
@@ -26,9 +25,7 @@
 
   "spoof": {
     "source_ip": "5.6.7.8",
-    "source_ipv6": "2001:db8::1",
     "peer_spoof_ip": "9.10.11.12",
-    "peer_spoof_ipv6": "2001:db8::2",
     "_comment": "source_ip: IP to use as source when sending packets. peer_spoof_ip: Expected source IP of incoming packets from peer"
   },
 
